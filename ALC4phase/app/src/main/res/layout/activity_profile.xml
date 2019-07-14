@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityProfile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="292dp"
+        android:layout_gravity="center"
+       android:layout_marginTop="14dp"
+        android:src="@drawable/pp"
+        android:layout_marginBottom="14dp"
+        android:layout_height="254dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:text="Placide Rigole FOLEU"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="14dp"
+        />
+
+    <TextView
+        android:id="@+id/track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:text="Country :  Cameroon"
+         />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:text="Email :  foplacide@gmail.com"
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Track :  Android"
+        />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Phone Number :  00237678000784"
+        />
+    <TextView
+        android:id="@+id/slack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:text="Slack Username :  Placide Rigole FOLEU"
+        />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
